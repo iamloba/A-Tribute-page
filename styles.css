@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  /* width: 100%; */
+  display: block;
+}
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+  line-height: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+main {
+  background: RGB(235 238 242);
+  margin-top: 2rem;
+}
+.title {
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+}
+.title p {
+  margin-top: 0.5rem;
+}
+.title h1 {
+  /* margin-bottom: 2rem; */
+  font-size: 3rem;
+  padding: 2rem;
+}
+.img-div {
+  margin-bottom: 1.5rem;
+  background: white;
+  width: auto;
+  position: relative;
+}
+.img-caption {
+  text-transform: capitalize;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-div p {
+  padding: 0.5rem;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.tribute-info {
+  display: block;
+  text-align: left;
+}
+.tribute-info h2 {
+  padding: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: none;
+}
+.tribute-info-list {
+  max-width: 35rem;
+  font-size: 1rem;
+  padding: 0.75rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tribute-info span {
+  font-weight: bold;
+}
+.tribute-info-list li {
+  text-align: auto;
+}
+.footer-p {
+  padding: 2.5rem;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+}
+.footer-p span {
+  display: block;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+footer {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+}
+footer h2 {
+  text-transform: lowercase;
+  margin-left: 1rem;
+}
+footer a {
+  color: RGB(96 100 104);
+}
